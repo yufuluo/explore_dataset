@@ -1,11 +1,11 @@
 ## Programming Exercise
 The application in this repository allows users to interactively explore a [dataset](../db/data.csv).\
-Please follow this [instruction](../README.md) to run the app locally.\
+Please follow this [instruction](../README.md) to run the app locally.
 
 It supports users to:
 - group data by genre or network
 - filter the data by a set of cities
-- get the sum or average viewers of the dataset\
+- get the sum or average viewers of the dataset
 
 Some design considerations:
 - As actual dataset being explored is larger than can fit in memory, the result return from the database is divided into multiple chunks, each with a reasonable size.
